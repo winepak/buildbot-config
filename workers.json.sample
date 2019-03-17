@@ -1,0 +1,15 @@
+{
+    "worker-x86-01": {
+        "password": "MY_WORKER_PASSWORD",
+        "arches": [
+            "x86_64",
+            "i386"
+        ],
+        "roles": [
+            "sdk",
+            "app"
+        ],
+        "update-repo": true,
+        "max-builds": 3
+    }
+}

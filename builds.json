@@ -1,0 +1,24 @@
+{
+    "repos": {
+		"default": {
+			"base": "https://github.com/winepak"
+		}
+    },
+	"builds": {
+		"org.winepak.Sdk/3.0": {
+			"repo": "default",
+			"git-module": "winepak-sdk",
+			"git-branch": "3.0",
+		},
+		"org.winepak.Sdk/3.16-staging": {
+			"repo": "default",
+			"git-module": "winepak-sdk",
+			"git-branch": "3.16-staging",
+		},
+		"org.winepak.Sdk/3.17-staging": {
+			"repo": "default",
+			"git-module": "winepak-sdk",
+			"git-branch": "3.17-staging",
+		}
+	}
+}

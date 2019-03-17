@@ -1,0 +1,28 @@
+{
+    "buildbot-title": "winepak builder",
+    "buildbot-title-url": "https://www.winepak.org",
+    "buildbot-port": 8010,
+    "buildbot-url": "https://build.winepak.org/",
+    "buildbot-db": "sqlite:///state.sqlite",
+
+    "buildbot-auth-admin": {
+        "username": "admin",
+        "password": "MY_ADMIN_PASSWORD"
+    },
+    
+    "github-auth-client": "",
+    "github-auth-secret": "",
+    "github-change-secret": "",
+    "github-organization-name": "winepak",
+    
+    "gitlab-change-secret": "",
+
+    "repo-dep-repo": "winepak",
+    "repo-dep-repo-url": "https://dl.winepak.org/repo/winepak.flatpakrepo",
+    
+    "repo-gpg-homedir": "/srv/buildbot/gpg",
+    "repo-gpg-key": "",
+    
+    "repo-config-file": "winepak.json"
+}
+
