@@ -5,20 +5,29 @@
 		}
     },
 	"builds": {
-		"org.winepak.Sdk/3.0": {
+		"org.winepak.Sdk/4.0": {
 			"repo": "default",
 			"git-module": "winepak-sdk",
-			"git-branch": "3.0",
+			"git-branch": "4.0",
+			"meta": {
+			    "series": "stable"
+			}
 		},
-		"org.winepak.Sdk/3.16-staging": {
+		"org.winepak.Sdk/4.1": {
 			"repo": "default",
 			"git-module": "winepak-sdk",
-			"git-branch": "3.16-staging",
+			"git-branch": "4.1",
+			"meta": {
+			    "series": "devel"
+			}
 		},
-		"org.winepak.Sdk/3.17-staging": {
+		"org.winepak.Sdk/4.1-staging": {
 			"repo": "default",
 			"git-module": "winepak-sdk",
-			"git-branch": "3.17-staging",
+			"git-branch": "4.1-staging",
+			"meta": {
+			    "series": "staging"
+			}
 		}
 	}
 }
